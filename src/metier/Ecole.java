@@ -5,10 +5,10 @@ public class Ecole {
 	private String nomEcole;
 	private String mailEcole;
 	private String adresseEcole;
-	private int telephoneEcole;
+	private String telephoneEcole;
 	private String directeurEcole;
 	
-	public Ecole(String nomEcole, String mailEcole, String adresseEcole, int telephoneEcole, String directeurEcole) {
+	public Ecole(String nomEcole, String mailEcole, String adresseEcole, String telephoneEcole, String directeurEcole) {
 		super();
 		this.nomEcole = nomEcole;
 		this.mailEcole = mailEcole;
@@ -41,11 +41,11 @@ public class Ecole {
 		this.adresseEcole = adresseEcole;
 	}
 
-	public int getTelephoneEcole() {
+	public String getTelephoneEcole() {
 		return telephoneEcole;
 	}
 
-	public void setTelephoneEcole(int telephoneEcole) {
+	public void setTelephoneEcole(String telephoneEcole) {
 		this.telephoneEcole = telephoneEcole;
 	}
 
