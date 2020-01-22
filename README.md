@@ -34,3 +34,6 @@ etudiant int foreign key
 L' id pour etre directeur et acceder au menu est 666.
 L' id pour etre responsable et acceder au menu est 666.
 
+
+Lors de l'accès au menu il faut mettre la lettre correspond a l'action que l'on veut faire.
+Attention, par manque de temps je n'ai pu tester le type d'entrée lorsque vous tapper quelque chose au clavier (si id demandé ne mettez pas de texte) donc soyez conciliant svp =)
