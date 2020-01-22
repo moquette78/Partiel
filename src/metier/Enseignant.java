@@ -8,11 +8,11 @@ public class Enseignant {
 	private String mailEnseignant;
 	private String adresseEnseignant;
 	private String telephoneEnseignant;
-	private String matière;
+	private String matiere;
 	
 	
 	public Enseignant(int idEnseignant, String nomEnseignant, String prenomEnseignant, String mailEnseignant,
-			String adresseEnseignant, String telephoneEnseignant, String matière) {
+			String adresseEnseignant, String telephoneEnseignant, String matiere) {
 		super();
 		this.idEnseignant = idEnseignant;
 		this.nomEnseignant = nomEnseignant;
@@ -20,7 +20,7 @@ public class Enseignant {
 		this.mailEnseignant = mailEnseignant;
 		this.adresseEnseignant = adresseEnseignant;
 		this.telephoneEnseignant = telephoneEnseignant;
-		this.matière = matière;
+		this.matiere = matiere;
 	}
 	public int getIdEnseignant() {
 		return idEnseignant;
@@ -58,17 +58,17 @@ public class Enseignant {
 	public void setTelephoneEnseignant(String telephoneEnseignant) {
 		this.telephoneEnseignant = telephoneEnseignant;
 	}
-	public String getMatière() {
-		return matière;
+	public String getMatiere() {
+		return matiere;
 	}
-	public void setMatière(String matière) {
-		this.matière = matière;
+	public void setMatière(String matiere) {
+		this.matiere = matiere;
 	}
 	@Override
 	public String toString() {
 		return "Enseignant [idEnseignant=" + idEnseignant + ", nomEnseignant=" + nomEnseignant + ", prenomEnseignant="
 				+ prenomEnseignant + ", mailEnseignant=" + mailEnseignant + ", adresseEnseignant=" + adresseEnseignant
-				+ ", telephoneEnseignant=" + telephoneEnseignant + ", matière=" + matière + "]";
+				+ ", telephoneEnseignant=" + telephoneEnseignant + ", matiere=" + matiere + "]";
 	}
 	
 	
