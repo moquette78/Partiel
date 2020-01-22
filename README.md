@@ -27,3 +27,10 @@ adresse varchar
 numero varchar
 directeur varchar
 
+Pour Ecole :
+theme varchar foreign key 
+etudiant int foreign key
+
+L' id pour etre directeur et acceder au menu est 666.
+L' id pour etre responsable et acceder au menu est 666.
+
